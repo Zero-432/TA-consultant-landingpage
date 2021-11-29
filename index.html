@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- boostrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <!-- Splide css -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/themes/splide-default.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="./styles.css">
+    <title>T.A Solution</title>
+</head>
+
+<body>
+    <div class="page-container">
+        <!-- nav bar -->
+        <div class="navbar layout-container">
+            <div class="space-logo w-25"></div>
+            <!-- logo -->
+            <img src="./assets/images/logo_white.png" alt="logo" class="nav-logo">
+            <div class="d-flex align-items-center">
+                <!-- language -->
+                <div class="language text-white">
+                    <span class="font-weight-bold">ENG</span>
+                    <span>VIE</span>
+                </div>
+                <!-- menu -->
+                <div class="dropdown text-uppercase">
+                    <button class="btn dropdown-toggle text-white menu-dropdown-btn" type="button" id="dropdownMenu"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        MENU
+                        <img src="./assets/images/ico-menu.png" height="16px">
+                    </button>
+                    <div class="dropdown-menu text-center" aria-labelledby="dropdownMenu">
+                        <a class="dropdown-item text-white font-weight-bold" href="#about">T.A Solution</a>
+                        <a class="dropdown-item text-white font-weight-bold" href="#customer">Customer</a>
+                        <a class="dropdown-item text-white font-weight-bold" href="#product">Products & Servicer</a>
+                        <a class="dropdown-item text-white font-weight-bold" href="#teams">Team</a>
+                        <a class="dropdown-item text-white font-weight-bold" href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- top carousel -->
+        <div id="top-carousel" class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img src="./assets/images/slide1.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="./assets/images/slide2.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="./assets/images/slide3.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="./assets/images/slide4.jpg">
+                    </li>
+                </ul>
+                <p class="text-uppercase text-white slide-text">We bring innovation - We add values to your bussiness
+                </p>
+            </div>
+        </div>
+        <!-- top info -->
+        <div id="about" class="top-info section-container">
+            <div class="info-image-wrapper">
+                <img src="./assets/images/worldmap.png" alt="worldmap">
+            </div>
+            <div class="company-info">
+                <h2 class="section-title">About T.A Solution</h2>
+                <ul class="info-list">
+                    <li class="info-list--blue"><b>T.A Solution</b> is located in Ho Chi Minh City</li>
+                    <li class="info-list--blue">
+                        <b>With more than 8 years</b> working with IT field,
+                        we are expert in Web & mobile apps, Bussiness
+                        Management Software for small and medium-sized enterprises in Vietnam
+                    </li>
+                    <li>We develop CMS, E-Commerce, Intranet, Mobile apps, Socials Media.
+                        We also test web & mobile apps to ensure it works seamlessly cross-platform on desktops and
+                        mobile devices.
+                    </li>
+                    <li>We are digital tailors, we offers Digital solution with mutiple Technologies and Communication
+                    </li>
+                    <li>We also provide an IT outsourced resources service to Companies.</li>
+                    <li>We proud to be able to provide customer projects with international quality and
+                        local/competetive prices.</li>
+                </ul>
+            </div>
+        </div>
+        <!-- slogan -->
+        <div class="slogan section-container">
+            <p class="slogan__top text-white">
+                Technology is changing the way people & enterprise communicating, operating, and doing bussiness. We
+                create, utilize, and apply the most advanced technologies to help enterprises improve both internal &
+                external communication efficiency
+            </p>
+            <div class="slogan-img-wrapper">
+                <img src="./assets/images/logo.png" alt="logo">
+            </div>
+            <p class="slogan__bot text-white">We bring innovation - We add values to the operation and bussiness of our
+                Customers
+            </p>
+        </div>
+        <!-- our customers -->
+        <div id="customer" class="customers-container section-container layout-container">
+            <div class="customers">
+                <h2 class="section-title">Our Customers</h2>
+                <div id="customer_carousel" class="customer-carousel splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img src="./assets/images/customer1.png">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="./assets/images/customer2.png">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="./assets/images/customer3.png">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="./assets/images/customer4.png">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="./assets/images/customer5.png">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="./assets/images/customer6.png">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- products -->
+        <div id="product" class="products-container w-100">
+            <!-- <img src="./assets/images/Web demo-design TA.png" class="w-100"> -->
+        </div>
+        <div id="service" class="services-container w-100">
+            <!-- <img src="./assets/images/cus.png" class="w-100"> -->
+        </div>
+        <!-- our team -->
+        <div class="our-team section-container layout-container">
+            <h2 class="section-title text-white">Our team</h2>
+            <div class="top-text text-white">
+                <b>Experience alone was not enough to make team thrive.</b>
+                <b>Shared entrepreunial passion and shared strategic vision are required to get to superior team
+                    perfomance.</b>
+            </div>
+            <div class="bottom-text text-white">
+                <p>We possessed a strong management team with an experienced production team and a proven software
+                    development process ensures on-time deilvery with highest possible quality and within budget
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- teams -->
+    <div id="teams" class="teams section-container layout-container">
+        <div class="team-list row">
+            <!-- management -->
+            <div class="col-md-4">
+                <div class="card team-card management-card">
+                    <div class="card-body text-white">
+                        <span class="card-title">Management</span>
+                        <span class="card-text ">
+                            Over 15 years in the industry Qualification in Managament, HR, Finance, Project
+                            Management,
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- production -->
+            <div class="col-md-4">
+                <div class="card team-card production-card">
+                    <div class="card-body text-white">
+                        <span class="card-title">Production team</span>
+                        <span class="card-text">
+                            Experienced team with
+                        </span>
+                        <span class="card-text">
+                            Project Manager
+                        </span>
+                        <span class="card-text">
+                            Developer
+                        </span>
+                        <span class="card-text">
+                            Graphic Designer
+                        </span>
+                        <span class="card-text">
+                            Creative Director
+                        </span>
+                        <span class="card-text">
+                            Quality Manager
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- RD -->
+            <div class="col-md-4">
+                <div class="card team-card rd-card">
+                    <div class="card-body">
+                        <span class="card-title text-white">R&D team</span>
+                        <span class="card-text text-white">
+                            Research & Development Support
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact us -->
+    <div id="contact" class="contact text-white">
+        <div class="row section-container contacts layout-container">
+            <!-- form -->
+            <div class="col-6">
+                <h2>T.A Solution</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" class="form-control" placeholder="Message"></textarea>
+                    </div>
+                    <button type="button" class="btn contact-submit-btn float-right">Submit</button>
+                </form>
+            </div>
+            <!-- contacts -->
+            <div class="col-6 contact-info">
+                <h2 class="text-uppercase">Contact Us</h2>
+                <h5>Address</h5>
+                <p>537/29/2D Nguyen Oanh Str., Ward 17, Go Vap District, Hochiminh City, Vietnam</p>
+                <h5>Mail</h5>
+                <p>Contact@tatechsolution.com</p>
+                <h5>Phone</h5>
+                <p>+934167499</p>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer layout-container">
+        <div class="d-flex justify-content-end py-3">
+            <img src="./assets/images/ico-skype.png" alt="skype" class="mr-3">
+            <img src="./assets/images/ico-zalo.png" alt="zalo" class="mr-3">
+            <img src="./assets/images/ico-meseger.png" alt="messenger">
+        </div>
+    </footer>
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- boostrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <!-- Splide js -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.20/dist/js/splide.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-grid@0.2.0/dist/js/splide-extension-grid.min.js">
+        </script>
+    <!-- main js -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
